@@ -20,23 +20,13 @@ Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
 - Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs
 - As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa.
 
-
 Java Syntax:
 -----------
 - In Java, every application begins with a class name, and that class must match the filename.
 - Every line of code that runs in Java must be inside a class. The class name should always start with an uppercase first letter. 
 - Note: Java is case-sensitive. MyClass and myclass would be treated as two completely different names.
 - The name of the Java file must match the class name. So if your class is called Main, the file must be saved as Main.java. This is because Java uses the class name to find and run your code. If the names don't match, Java will give an error and the program will not run. 
-- When saving the file, save it using the class name and add .java to the end of the filename. 
-
-Code:
-----
-public class HelloWorld {
-   public static void main(String[] args) {
-       System.out.println("Hello World");
-   }
-}
-
+- When saving the file, save it using the class name and add .java to the end of the filename.
 - The main() method is required in every Java program. It is where the program starts running.
 - Any code placed inside the main() method will be executed.
 - Inside the main() method, we can use the println() method to print a line of text to the screen.
@@ -61,14 +51,6 @@ Java Output:
 - Text must be wrapped inside double quotations marks "". If you forget the double quotes, an error occurs.
 - print() vs println() : The only difference is that print() does not insert a new line at the end of the output.
 
-Code:
-----
-System.out.print("Hello World! ");
-System.out.print("I will print on the same line.");
-
-Output:
-------
-Hello World! I will print on the same line.
 
 Print Numbers:
 -------------
@@ -76,21 +58,6 @@ Print Numbers:
 - However, unlike text, we don't put numbers inside double quotes.
 - You can also perform mathematical calculations inside the println() method.
 
-Code:
-----
-System.out.println(3);
-System.out.println(358);
-System.out.println(50000);
-System.out.println(3 + 3);
-System.out.println(2 * 5);
-
-Output:
-------
-3
-358
-50000
-6
-10
 
 Java Comments: (Single and Multiline)
 -------------
@@ -98,12 +65,6 @@ Java Comments: (Single and Multiline)
 - Single-line comments start with two forward slashes (//).Any text between // and the end of the line is ignored by Java (will not be executed).
 - Multi-line comments start with /* and ends with */.Any text between /* and */ will be ignored by Java.
 
-Code:
-----
-System.out.println("Hello World"); // This is a comment
-/* The code below will print the words Hello World
-to the screen, and it is amazing */
-System.out.println("Hello World");
 
 Java Variables:
 --------------
