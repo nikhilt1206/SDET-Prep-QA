@@ -84,6 +84,30 @@ System.out.println(50000);
 System.out.println(3 + 3);
 System.out.println(2 * 5);
 
+Output:
+------
+3
+358
+50000
+6
+10
+
+Java Comments: (Single and Multiline)
+-------------
+- Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code.
+- Single-line comments start with two forward slashes (//).Any text between // and the end of the line is ignored by Java (will not be executed).
+- Multi-line comments start with /* and ends with */.Any text between /* and */ will be ignored by Java.
+
+Code:
+----
+System.out.println("Hello World"); // This is a comment
+/* The code below will print the words Hello World
+to the screen, and it is amazing */
+System.out.println("Hello World");
+
+
+
+
 
 
 
