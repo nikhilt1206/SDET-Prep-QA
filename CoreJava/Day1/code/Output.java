@@ -5,5 +5,7 @@ public class Output {
         System.out.print("Hi! ");
         //System.out.println("Hi! ");
         System.out.print("This is Nikhil");
+        System.out.println(358);
+        System.out.println(3*40);
     }
 }
